@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd petwell-ai-vue && npm install && npm run build",
+  "outputDirectory": "petwell-ai-vue/dist",
+  "installCommand": "cd petwell-ai-vue && npm install",
+  "framework": "vue",
+  "env": {
+    "VITE_SUPABASE_URL": "@vite_supabase_url",
+    "VITE_SUPABASE_ANON_KEY": "@vite_supabase_anon_key",
+    "OPENAI_API_KEY": "@openai_api_key"
+  }
+}

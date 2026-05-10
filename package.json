@@ -5,6 +5,7 @@
     "dev": "cd petwell-ai-vue && npm run dev",
     "build": "cd petwell-ai-vue && npm run build",
     "install:vue": "cd petwell-ai-vue && npm install",
-    "start": "cd petwell-ai-vue && npm run preview"
+    "start": "cd petwell-ai-vue && npm run preview",
+    "vercel-build": "cd petwell-ai-vue && npm install && npm run build"
   }
 }
