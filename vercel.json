@@ -2,6 +2,21 @@
   "buildCommand": "cd petwell-ai-vue && npm run build",
   "outputDirectory": "petwell-ai-vue/dist",
   "installCommand": "npm --prefix petwell-ai-vue install",
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/petwell-ai-vue/dist/$1"
+    }
+  ],
   "git": {
     "deploymentEnabled": true
   }
