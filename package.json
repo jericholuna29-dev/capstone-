@@ -1,0 +1,10 @@
+{
+  "name": "project-capstones-root",
+  "private": true,
+  "scripts": {
+    "dev": "cd petwell-ai-vue && npm run dev",
+    "build": "cd petwell-ai-vue && npm run build",
+    "install:vue": "cd petwell-ai-vue && npm install",
+    "start": "cd petwell-ai-vue && npm run preview"
+  }
+}
